@@ -1,0 +1,36 @@
+
+
+.recepie_div{
+    /* border: 1px solid grey;
+    border-radius: 50%; */
+    padding: 10px;
+    text-align: center;
+}
+.recepie_div :hover{
+    
+    cursor: pointer;
+    /* box-shadow: 2px 2px 5px blue; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px solid blue;
+}
+
+.recepie_parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.offrImage:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+/* .container_recepiePage{ */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+/* } */

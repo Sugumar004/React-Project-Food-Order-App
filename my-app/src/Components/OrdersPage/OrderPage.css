@@ -1,0 +1,61 @@
+.address{
+    height: 80vh;
+    width: 55%;
+    background-color: whitesmoke;
+}
+
+.cartLists{
+    padding-top: 10px;
+    height: 80vh;
+    width: 32%;
+    text-align: center;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+}
+.orderImagDiv{
+    margin-top: 5px;
+    background-color: lightgrey;
+    padding: 5px;
+    height: 100px;
+    text-align: center;
+}
+
+.cnfrmbtn{
+    background-color: #FC8019;
+    color: white;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+}
+.cnfrmbtn:hover{
+    cursor: pointer;
+}
+/* .address{
+    color: white;
+    background-color: #37718E;
+} */
+.textarea{
+    width: 500px;
+    height: 100px;
+    margin-top: 10px;
+}
+.input{
+    height: 40px;
+    width: 200px;
+    border:none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.trashicon{
+    font-size: 35px;
+    
+}
+
+.trashicon:hover{
+    color: red;
+    cursor: pointer;
+}
+/* style={{height:"70vh",width:"65%",backgroundColor:"whitesmoke"}} */

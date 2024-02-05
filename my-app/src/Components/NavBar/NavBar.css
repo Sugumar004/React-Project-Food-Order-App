@@ -1,0 +1,55 @@
+.rightnav_container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:992px) {
+    .rightnav_container{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+.profile{
+    /* border: 0.2px solid lightgray; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.profile:hover{
+    cursor: pointer;
+    color:#FC8019 ;
+}
+/* .order{
+    margin-left: -10px;
+} */
+.order:hover{
+    cursor: pointer;
+    color:#FC8019 ;
+}
+.navlist:hover{
+    color:red !important ;
+}
+
+.navLinkNormal{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.navLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FC8019;
+}
+
+.active{
+    color: #FC8019;
+}
+
+
+/* olor:"#FC8019" */

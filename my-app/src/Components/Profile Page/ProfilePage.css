@@ -1,0 +1,94 @@
+ 
+
+.prfileContainer{
+    background-color:#37718E;
+    color:white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+    width: 25%;
+    background-color: white;
+    color: black;
+}
+
+.sdiv:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #FC8019;
+    
+}
+
+
+
+.profile_right{
+    color: black;
+    height: 500px;
+    background-color: white;
+    width: 70%;
+} 
+
+.editBtn{
+    height: 40px;
+    width: 130px;
+    background-color: #37718E;
+    color: white;
+    margin-left: 80%;
+    /* position: absolute; */
+    margin-top: 10px;
+}
+
+.sdiv.active-link {
+    color: #FC8019; 
+  }
+
+.logoutBtn{
+    height: 40px;
+    width: 90px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+}
+.editBtn:hover{
+    color: whitesmoke;
+}
+
+.confrmChangesBtn{
+    background-color: #FC8019;
+    color: white;
+    height: 40px;
+    font-weight: 400;
+    margin-left: 180px;
+}
+
+.confrmChangesBtn:hover{
+color: white;
+background-color: yellowgreen;
+}
+
+.formContainer{
+    border: 1px solid black;
+    /* height: fit-content; */
+    width: fit-content;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.inputBox{
+    width: 350px;
+}
